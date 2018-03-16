@@ -1,0 +1,5 @@
+curl -H "Content-Type: application/json"  \
+     -X POST \
+     --data @data.json http://www.cloud-logger-159118.appspot.com/api/fleets/6292871527268352/trackers/4402280047535/positions \
+     --verbose
+
